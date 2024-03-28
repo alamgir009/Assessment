@@ -1,0 +1,11 @@
+/* App.css */
+
+/* Define custom class for address cell */
+.address-cell {
+  /* Apply text overflow hidden */
+  overflow: hidden;
+  /* Apply text overflow ellipsis */
+  text-overflow: ellipsis;
+  /* Apply white-space nowrap to ensure text is not wrapped */
+  white-space: nowrap;
+}

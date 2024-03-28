@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+label , input, textarea{
+    display: block;
+    width: 100%;
+}
+
+form input, form textarea{
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+form input{
+    height: 35px;
+}
+
+.page-item button{
+    padding: 0px 5px 0px 5px;
+}
